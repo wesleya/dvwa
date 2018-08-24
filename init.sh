@@ -31,4 +31,4 @@ ip6tables-save > /etc/iptables/rules.v6
 
 # use the --restart always so this container auto-runs everytime docker starts
 # which combined with the init.d command above should mean container runs on every reboot
-docker run --restart always -p 80:80 vulnerables/web-dvw /home/webgoat/start.sh
+docker run --restart always -p 80:80 vulnerables/web-dvw
